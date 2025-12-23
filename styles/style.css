@@ -281,7 +281,7 @@
 
 /*375px*/
 
-@media (max-width: 375px) {
+@media (max-width: 560px) {
   .header {
     padding: 10px;
   }
