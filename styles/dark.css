@@ -1,12 +1,12 @@
 :root.theme-dark {
-  --title-color: #DB00FF;
-  --text-color: #F1B2CE;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
   --subject-text-color: #000028;
   --accent-color: #ff0070;
-  --button-color:#ff0070;
+  --button-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
 }
 .theme-dark {
   display: flex;
-  border: 1px solid rgba(255, 0, 112, 0.40);
+  border: 1px solid rgba(255, 0, 112, 0.4);
 }
