@@ -181,6 +181,11 @@
   font-size: var(--font-size);
   color: var(--text-color);
 }
+.question-text-eat {
+  padding-block-start: 10px;
+  font-size: var(--font-size);
+  color: var(--text-color);
+}
 .question-section-image {
   padding-block-end: 60px;
 }
