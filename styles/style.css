@@ -117,6 +117,7 @@
 }
 .question-text {
   font-size: var(--font-size);
+  
   color: var(--text-color);
 }
 .question-link {
