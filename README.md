@@ -1,1 +1,1 @@
-https://github.com/phaantoom-dev/posmotri-v-okno-fd
+https://github.com/phaantoom-dev/slozhno-sosredotochitsya-fd
