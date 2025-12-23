@@ -116,6 +116,7 @@
   font-size: var(--font-size);
 }
 .question-text {
+  margin-top: 10px;
   font-size: var(--font-size);
   color: var(--text-color);
 }
@@ -178,6 +179,8 @@
 }
 .question-text-advice {
   padding-block-start: 10px;
+  font-size: var(--font-size);
+  color: var(--text-color);
 }
 .question-section-image {
   padding-block-end: 60px;
@@ -290,7 +293,7 @@
     max-inline-size: 355px;
     max-block-size: 117px;
   }
-  .section-of-question_dofamin {
+  .section-of-question-dofamin {
     margin: 0px 10px;
     padding: 40px 0 0 0;
     display: flex;
