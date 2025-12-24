@@ -147,7 +147,7 @@
   flex-direction: column;
   gap: 10px;
 }
-.article-content p:first-of-type {
+.article-padding p:first-of-type {
   padding-block-end: 10px;
 }
 .question-section-eat {
