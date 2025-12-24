@@ -8,9 +8,11 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  background-color: var(--bg-color);
 }
 .header {
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
   padding: 20px;
   display: grid;
   position: relative;
@@ -64,7 +66,8 @@
   border-radius: 50%;
   background-color: var(--accent-color);
   fill: var(--accent-color);
-  filter: drop-shadow(0px 0px 4px var(--accent-color));
+  filter: drop-shadow(0px 0px 4px var(--accent-color))
+  drop-shadow(0 0 8px rgba(255, 0, 112, 1));
 }
 .frame::before {
   position: absolute;
@@ -105,7 +108,6 @@
 }
 .header__text {
   max-inline-size: 491px;
-  max-block-size: 71px;
   justify-self: end;
   align-self: center;
 }
@@ -132,24 +134,25 @@
 .question-link:focus-visible {
   border: 1px solid var(--text-color);
 }
-.section-of-question-dofamin {
-  display: grid;
-  grid-template-columns: 34% 66%;
-  padding-block-start: 60px;
+.section-content {
+    display: grid;
   margin: 0 20px;
 }
-.question-section-answer-dofamin {
+.section-of-question-dofamin {
+  grid-template-columns: 34% 66%;
+  padding-block-start: 60px;
+}
+.article-content {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.question-section-answer-dofamin p:first-of-type {
+.article-content p:first-of-type {
   padding-block-end: 10px;
 }
 .question-section-eat {
   padding-block-start: 80px;
   padding-block-end: 80px;
-  margin: 0 20px;
 }
 .question-container-eat {
   display: grid;
@@ -164,10 +167,8 @@
   margin-block-end: 10px;
 }
 .question-section-advice {
-  display: grid;
   grid-template-columns: 34% 66%;
   padding-block-end: 80px;
-  margin: 0 20px;
 }
 .question-section-advice-title {
   font-weight: 400;
@@ -222,7 +223,8 @@
   grid-column: 2 / 4;
 }
 .footer {
-  min-block-size: 100vh;
+  block-size: 100vh;
+  min-block-size: 668px;
   padding: 20px;
   position: relative;
   display: flex;
@@ -252,7 +254,6 @@
   }
   .header__text {
     max-inline-size: 364px;
-    max-block-size: 117px;
   }
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -295,17 +296,17 @@
   }
   .header__text {
     max-inline-size: 355px;
-    max-block-size: 117px;
+  }
+  .section-content {
+        display: flex;
+    flex-direction: column;
+        margin: 0px 10px;
   }
   .section-of-question-dofamin {
-    margin: 0px 10px;
     padding: 40px 0 0 0;
-    display: flex;
-    flex-direction: column;
     gap: 20px;
   }
   .question-section-eat {
-    margin: 0 10px;
     padding-block-start: 50px;
     padding-inline-end: 0;
     padding-block-end: 50px;
@@ -318,9 +319,6 @@
     flex-direction: column;
   }
   .question-section-advice {
-    margin: 0 10px;
-    display: flex;
-    flex-direction: column;
     gap: 20px;
     padding-block-end: 50px;
   }
