@@ -178,12 +178,10 @@
   gap: 20px;
 }
 .question-text-advice {
-  padding-block-start: 10px;
   font-size: var(--font-size);
   color: var(--text-color);
 }
 .question-text-eat {
-  padding-block-start: 10px;
   font-size: var(--font-size);
   color: var(--text-color);
 }
