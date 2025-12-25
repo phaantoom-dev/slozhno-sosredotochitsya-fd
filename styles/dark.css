@@ -1,3 +1,16 @@
+@media (prefers-color-scheme: dark) {
+  :root.theme-auto {
+    --bg-color:#000028;
+    --title-color: #db00ff;
+    --text-color: #f1b2ce;
+    --subject-text-color: #000028;
+    --accent-color: #ff0070;
+    --button-color: #ff0070;
+    --background-image: url(../images/cover-image-dark.png);
+    
+  }
+}
+
 :root.theme-dark {
   --bg-color:#000028;
   --title-color: #db00ff;
@@ -7,10 +20,10 @@
   --button-color: #ff0070;
   --background-image: url(../images/cover-image-dark.png);
 }
-.theme_dark .decorative__element {
+
+.theme-dark .decorative__element {
   display: flex;
 }
-
-.theme_dark .header__theme-menu-button:hover {
+.theme-dark .header__theme-menu-button:hover {
   border: 1px solid rgba(255, 0, 112, 0.40);
 }
