@@ -9,7 +9,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --bg-color:#000028;
     --title-color: #db00ff;
     --text-color: #f1b2ce;
